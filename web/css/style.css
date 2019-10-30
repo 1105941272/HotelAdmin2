@@ -1,0 +1,211 @@
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:cornflowerblue;
+
+}
+
+
+
+input {
+
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+select, input {
+    vertical-align: middle;
+}
+
+img{
+    float: left;
+
+}
+.head{
+    background-color: burlywood;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    height: 55px;
+
+}
+.head li {
+    float: left;
+    padding: 0 10px;
+}
+.bottom{
+    float: left;
+    position: absolute;
+    top: 55px;
+    left: 4px;
+    right: 4px;
+    bottom: 5px;
+    background-image: url("../images/backnew.png");
+
+}
+
+.hr{
+    float: left;
+    position: absolute;
+    right: 200px;
+    height: 52px;
+
+}
+.hrr{
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    float: left;
+    position: absolute;
+    right: 100px;
+    background-size: cover;
+    top: 2px;
+
+    height: 49px;
+    width: 50px;
+    background-image: url("../images/cancellation.jpg");
+}
+.hr1{
+    float: left;
+    position: absolute;
+    right: 250px;
+    height: 52px;
+    width: 2px;
+    background-color: green;
+
+}
+.hr2{
+    float: left;
+    position: absolute;
+    right: 190px;
+    width: 2px;
+    height: 52px;
+    background-color: green;
+
+}
+.tfr{
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    background-color: rgba(1,1,1,0.3);
+    width: 240px;
+    height: 100px;
+}
+.clock{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    background-image: url("../images/clock.jpg");
+    background-size: cover;
+
+    width: 80px;
+    height: 80px;
+}
+.clr{
+    position: absolute;
+    color: burlywood;
+    top: 20px;
+    left: 100px;
+}
+
+.heft {
+  background-color: green;
+    height: 55px;
+    width: 1px;
+}
+.ord{
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    top: 120px;
+    left: 16px;
+    background-color: rgba(0,0,100,0.7);
+
+}
+.ord-tr1{
+
+    color: burlywood;
+    font-size: 20px;
+    height: 50px;
+}
+.tr31{
+    width: 120px;
+    font-size: 18px;
+    height: 120px;
+    background-color: palegoldenrod;
+}
+.tr32{
+    width: 120px;
+    font-size: 18px;
+    height: 120px;
+    background-color: palegoldenrod;
+}
+.tr41{
+    width: 120px;
+    font-size: 18px;
+    height: 120px;
+    background-color: palegoldenrod;
+}
+.tr42{
+    width: 120px;
+    font-size: 18px;
+    height: 120px;
+    background-color: palegoldenrod;
+}
+.login_fr{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    top: 180px;
+    left: 500px;
+    width: 450px;
+    height: 250px;
+}
+.login_fr_user{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.login_fr_pwd{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.input_login{
+    position: absolute;
+    top: 180px;
+    height: 30px;
+    left: 100px;
+    width: 80px;
+}
+.input_exit{
+    position: absolute;
+    height: 30px;
+    top: 180px;
+    left: 190px;
+    width: 80px;
+}
+.user_div{
+    float: left;
+    /*position: absolute;*/
+    /*left: 5px;*/
+    /*top: 5px;*/
+    /*right: 5px;*/
+    /*bottom: 5px;*/
+    width: 100px;
+    height: 150px;
+    color: red;
+    background-color: darkseagreen;
+}
+.body{
+
+}
